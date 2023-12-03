@@ -56,9 +56,10 @@ from vimeo_downloader import Vimeo
 
 def downloadVideo(driver, xpath1:str,xpath2:str,xpathIframe:str):
 
-    botaoExpandirbotaoExpandir = driver.find_element(By.XPATH,xpath1)
+    if(xpath1 != ""):
+        botaoExpandirbotaoExpandir = driver.find_element(By.XPATH,xpath1)
         #"//*[@id=\"learning-module-title-_9163_1\"]")
-    botaoExpandirbotaoExpandir.click()
+        botaoExpandirbotaoExpandir.click()
     
     time.sleep(2)
 
@@ -67,7 +68,7 @@ def downloadVideo(driver, xpath1:str,xpath2:str,xpathIframe:str):
     botaoExpandirbotaoExpandir.click()
 
     time.sleep(2)
-    
+
     iframe_src  = driver.find_element(By.XPATH,xpathIframe).get_attribute("src")
         #"//*[@id=\"bbml-editor-id_af22dded-b55f-4dfa-8a57-498e321cd5fe-rte\"]/div/div/iframe").get_attribute("src")
 
@@ -81,5 +82,6 @@ def downloadVideo(driver, xpath1:str,xpath2:str,xpathIframe:str):
     v = Vimeo.from_video_id(video_id=ultimo_numero)# url: https://vimeo.com/79761619
     v.best_stream.download('D:\\VideosRodrigo\\')
 
-    # Fechar o navegador
-    driver.quit()
+    driver.back()
+
+    
