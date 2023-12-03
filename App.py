@@ -96,24 +96,117 @@ downloadVideo(driver,""
               ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[5]/div/div/div[2]/div/div[1]/div[1]/a"
               ,"//*[@id=\"bbml-editor-id_beb429be-fe9b-46ad-9f21-095cb446a3c7-rte\"]/div/div/iframe")
 
-#downloadVideo(driver,""
+#Anatomia abdome - rim e adrenal
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[6]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_5175d990-c43c-48e1-a81e-7166a23c8246-rte\"]/div/div/iframe")
+
+#Anatomia abdome
+downloadVideo(driver,""
               ,"//*[@id=\"learning-module-contents-_2123_1\"]/div/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/a"
-              ,"//*[@id=\"bbml-editor-id_fd273e96-90aa-480d-83e1-17ab4261f001-rte\"]/div/div/iframe")
-#downloadVideo(driver,""
-              ,"//*[@id=\"learning-module-contents-_2123_1\"]/div/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/a"
-              ,"//*[@id=\"bbml-editor-id_fd273e96-90aa-480d-83e1-17ab4261f001-rte\"]/div/div/iframe")
-#downloadVideo(driver,""
-              ,"//*[@id=\"learning-module-contents-_2123_1\"]/div/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/a"
-              ,"//*[@id=\"bbml-editor-id_fd273e96-90aa-480d-83e1-17ab4261f001-rte\"]/div/div/iframe")
-#downloadVideo(driver,""
-              ,"//*[@id=\"learning-module-contents-_2123_1\"]/div/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/a"
-              ,"//*[@id=\"bbml-editor-id_fd273e96-90aa-480d-83e1-17ab4261f001-rte\"]/div/div/iframe")
-#downloadVideo(driver,""
-              ,"//*[@id=\"learning-module-contents-_2123_1\"]/div/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/a"
-              ,"//*[@id=\"bbml-editor-id_fd273e96-90aa-480d-83e1-17ab4261f001-rte\"]/div/div/iframe")
-#downloadVideo(driver,""
-              ,"//*[@id=\"learning-module-contents-_2123_1\"]/div/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/a"
-              ,"//*[@id=\"bbml-editor-id_fd273e96-90aa-480d-83e1-17ab4261f001-rte\"]/div/div/iframe")
+              ,"//*[@id=\"bbml-editor-id_5175d990-c43c-48e1-a81e-7166a23c8246-rte\"]/div/div/iframe")
+
+#Anatomia pescoço
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[8]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"#bbml-editor-id_27547986-7baf-4b5b-8f17-117af325ec8a-rte > div > div > iframe")
+#Anatomia face
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[9]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_5d235a4c-f16a-4d0a-9cd9-3bd6849e19ca-rte\"]/div/div/iframe")
+# Nó de cirurgião
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[10]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_35dafc56-6f8b-414e-b061-fb38e2d6b6d6-rte\"]/div/div/iframe")
+
+#Orientações do nó
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+# 4
+downloadVideo(driver,""
+              ,f"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[12]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_077b553e-53de-4b6f-ae75-5a2abe67b011-rte\"]/div/div/iframe")
+#Karatê chop
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[13]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_3d8ccc0d-5b7e-4c0d-9958-fbc05bda27ff-rte\"]/div/div/iframe")
+
+#Primeiro Modulo - Aula Inaugural
+downloadVideo(driver,"//*[@id=\"learning-module-title-_664_1\"]"
+              ,"//*[@id=\"learning-module-contents-_664_1\"]/div/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_cc190fe3-01cd-48a4-b9c6-b157685d0ca4-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+            
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+downloadVideo(driver,""
+              ,"//*[@id=\"learning-module-contents-_2033_1\"]/div/div[1]/div[2]/div[11]/div/div/div[2]/div/div[1]/div[1]/a"
+              ,"//*[@id=\"bbml-editor-id_fbe503cf-7e58-4dec-86f8-5e56a13a7d68-rte\"]/div/div/iframe")
+
+
+
+
 
 
 
