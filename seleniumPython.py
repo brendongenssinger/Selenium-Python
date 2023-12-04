@@ -56,22 +56,61 @@ from vimeo_downloader import Vimeo
 
 def downloadVideo(driver, xpath1:str,xpath2:str,xpathIframe:str):
 
-    if(xpath1 != ""):
-        botaoExpandirbotaoExpandir = driver.find_element(By.XPATH,xpath1)
+    try:
+
+        time.sleep(5)
+
+        
+        if(xpath1 != ""):
+            botaoExpandirbotaoExpandir = driver.find_element(By.XPATH,xpath1)
+            #"//*[@id=\"learning-module-title-_9163_1\"]")
+            botaoExpandirbotaoExpandir.click()
+        
+        time.sleep(2)
+
+        botaoExpandirbotaoExpandir = driver.find_element(By.XPATH,xpath2)
+            #"//*[@id=\"learning-module-contents-_9163_1\"]/div/div[1]/div[2]/div[1]/div/div/div[2]/div/div[1]/div[1]/a")
+        botaoExpandirbotaoExpandir.click()
+
+        time.sleep(2)
+
+        iframe_src  = driver.find_element(By.XPATH,xpathIframe).get_attribute("src")
+            #"//*[@id=\"bbml-editor-id_af22dded-b55f-4dfa-8a57-498e321cd5fe-rte\"]/div/div/iframe").get_attribute("src")
+
+
+        print(f"Src do iframe: {iframe_src}")
+
+        # url: https://vimeo.com/79761619
+        # video ID: '79761619'
+        ultimo_numero = re.search(r'/(\d+)$', iframe_src).group(1)
+
+        v = Vimeo.from_video_id(video_id=ultimo_numero)# url: https://vimeo.com/79761619
+        v.best_stream.download('D:\\VideosRodrigo\\')
+
+        driver.back()
+    except Exception as e:
+        print(f'Error download file {e}')
+        driver.back()
+
+def downloadVideoClass(driver, selector1:str,selector2:str,selector3:str, by1:By=By.CSS_SELECTOR,by2:By=By.CSS_SELECTOR,b3:By=By.CSS_SELECTOR):
+
+
+#    driver.find_element_by_tag_name("body").send_keys(Keys.PAGE_UP)
+
+    if(selector1 != ""):        
+        botaoExpandirbotaoExpandir = driver.find_element(by1,selector1)
         #"//*[@id=\"learning-module-title-_9163_1\"]")
         botaoExpandirbotaoExpandir.click()
     
     time.sleep(2)
 
-    botaoExpandirbotaoExpandir = driver.find_element(By.XPATH,xpath2)
+    botaoExpandirbotaoExpandir = driver.find_element(by2,selector2)
         #"//*[@id=\"learning-module-contents-_9163_1\"]/div/div[1]/div[2]/div[1]/div/div/div[2]/div/div[1]/div[1]/a")
     botaoExpandirbotaoExpandir.click()
 
     time.sleep(2)
 
-    iframe_src  = driver.find_element(By.XPATH,xpathIframe).get_attribute("src")
-        #"//*[@id=\"bbml-editor-id_af22dded-b55f-4dfa-8a57-498e321cd5fe-rte\"]/div/div/iframe").get_attribute("src")
-
+    iframe_src  = driver.find_element(b3,selector3).get_attribute("src")
 
     print(f"Src do iframe: {iframe_src}")
 
